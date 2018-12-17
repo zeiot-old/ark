@@ -12,19 +12,19 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-# VERSION 0.9.4
+# VERSION 0.10.0
 # AUTHOR:         Nicolas Lamirault <nicolas.lamirault@gmail.com>
-# DESCRIPTION:    zeiot/rpi-ark
+# DESCRIPTION:    zeiot/ark
 
-FROM resin/armv7hf-debian:stretch
+FROM resin/aarch64-debian:stretch
 
 LABEL summary="Heptio Ark for ARM64" \
       description="Heptio Ark for ARM64 devices" \
-      name="zeiot/rpi-ark" \
-      url="https://github.com/zeiot/rpi-ark" \
+      name="zeiot/ark" \
+      url="https://github.com/zeiot/ark" \
       maintainer="Nicolas Lamirault <nicolas.lamirault@gmail.com>"
 
-ENV ARK_VERSION 0.9.4
+ENV ARK_VERSION 0.10.0
 
 RUN [ "cross-build-start" ]
 
