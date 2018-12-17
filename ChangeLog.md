@@ -1,6 +1,10 @@
 RPI Ark ChangeLog
 =================================
 
+# Version 1.2.0 (12/17/2018)
+
+- Update to 0.10.0
+
 # Version 1.1.0 (09/09/2018)
 
 - Update to 0.9.4
